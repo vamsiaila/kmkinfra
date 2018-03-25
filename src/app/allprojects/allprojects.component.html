@@ -4,35 +4,49 @@
       <div class="row">
   <div class="col-md-4 col-11 container">
   <h6 class="h6">COMPLETED PROJECTS</h6>
-  <div class="sep container col-12">
+  <div class="sep container col-12 cont">
 <div class="row">
-    <div class="col-md-6 col-10 cp-tile" *ngFor="let x of cp">
+    <div class="col-md-6 col-10 tile" *ngFor="let x of cp">
         <div class="col-12 logo" *ngIf="x.logo_path.length!=0">
             <img [src]="x.logo_path" class="col-12 logo-img img-center">
         </div>
         <div class="col-12" *ngIf="x.img_path.length!=0">
-            <img [src]="x.img_path" class="col-12">
+            <img [src]="x.img_path" class="img-fluid">
         </div>
-        <p class="title">{{x.title}}</p>
+        <p class="title" *ngIf="x.title.length!=0">{{x.title}}</p>
     </div>
 </div>
   </div>
   </div>
   <div class="col-md-4 col-11 container">
   <h6 class="h6">UPCOMING PROJECTS</h6>
-  <div class="sep container col-12">
+  <div class="sep container col-12 cont">
 <div class="row">
-    <div class="col-6 container"></div>
-    <div class="col-6 container"></div>
+    <div class="col-md-6 col-10 tile" *ngFor="let x of up">
+        <div class="col-12 logo" *ngIf="x.logo_path.length!=0">
+            <img [src]="x.logo_path" class="col-12 logo-img img-center">
+        </div>
+        <div class="col-12 " *ngIf="x.img_path.length!=0">
+            <img [src]="x.img_path" class="img-fluid">
+        </div>
+        <p class="title" *ngIf="x.title.length!=0">{{x.title}}</p>
+    </div>
 </div>
   </div>
   </div>
   <div class="col-md-4 col-11 container">
   <h6 class="h6">ONGOING PROJECTS</h6>
-  <div class="col-12 container">
+  <div class="col-12 container cont">
 <div class="row">
-    <div class="col-6 container"></div>
-    <div class="col-6 container"></div>
+    <div class="col-md-6 col-10 tile" *ngFor="let x of op">
+        <div class="col-12 logo" *ngIf="x.logo_path.length!=0">
+            <img [src]="x.logo_path" class="col-12 logo-img img-center">
+        </div>
+        <div class="col-12" *ngIf="x.img_path.length!=0">
+            <img [src]="x.img_path" class="img-fluid">
+        </div>
+        <p class="title" *ngIf="x.title.length!=0">{{x.title}}</p>
+    </div>
 </div>
   </div>
   </div>

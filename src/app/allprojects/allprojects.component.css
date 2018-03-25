@@ -21,6 +21,10 @@ color: #caa12e;
     color: #1c3b6a;
     text-align: center;
 }
+.cont{
+    padding-top: 20px;
+    min-height: 290px;
+}
 .tile-cont{
     height: 340px;
     overflow: scroll;
@@ -29,7 +33,7 @@ color: #caa12e;
 .sep{
     border-right: 1px solid;
 }
-.cp-tile{
+.tile{
     /* border: 1px solid; */
     padding: 5px;
 }
