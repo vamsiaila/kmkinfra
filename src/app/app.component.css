@@ -1,0 +1,10 @@
+.outer{
+    background-color: #caa12e;
+    padding: 20px;
+}
+.inner{
+    background-color: #fff;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

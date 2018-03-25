@@ -1,0 +1,71 @@
+.out{
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
+h1{
+font-family: Arial;
+font-weight: 900;
+color: #1c3b6a;
+line-height: 2.2rem;
+letter-spacing: -1px;
+font-size: 2.5rem;
+}
+h1 font{
+color: #caa12e;
+}
+.h6{
+    font-weight: 900;
+    color: #1c3b6a;
+    text-align: center;
+}
+.tile-cont{
+    height: 340px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.sep{
+    border-right: 1px solid;
+}
+.cp-tile{
+    /* border: 1px solid; */
+    padding: 5px;
+}
+.logo{
+height: 65px;
+}
+.logo-img{
+    float:right;
+    position:absolute;
+    bottom:5px;
+    right:0;
+    clear:right
+}
+.title{
+    font-size: 0.55rem;
+    text-align: center;
+    margin: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .out{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 20px;
+        margin: 0px;
+    }
+    h1 {
+        line-height: 2rem;
+        letter-spacing: -3px;
+        font-size: 2.4rem;
+    }
+    .tile-cont{
+        height: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .sep{
+        border-right: 0px solid;
+    }
+}

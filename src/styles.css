@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/*custom scroll bar starts*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #eed99e; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #caa12e; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #977414; 
+}
+
+/*custom scroll bar ends*/

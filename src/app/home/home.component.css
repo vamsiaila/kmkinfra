@@ -1,0 +1,38 @@
+.out{
+    padding: 10px;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+h1{
+font-family: Arial;
+font-weight: 900;
+color: #1c3b6a;
+line-height: 5rem;
+letter-spacing: -5px;
+font-size: 6rem;
+}
+h1 font{
+color: #caa12e;
+}
+.tiles{
+    margin: 0px;
+    padding: 5px;
+}
+.tile-item{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .out{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 10px;
+        margin: 0px;
+    }
+    h1 {
+        line-height: 4rem;
+        letter-spacing: -5px;
+        font-size: 4.7rem;
+    }
+}
