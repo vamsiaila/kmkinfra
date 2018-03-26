@@ -1,0 +1,28 @@
+<app-sub-nav></app-sub-nav>
+<div class="container out">
+  <div class="row">
+  <div class="col-md-5 col-12 logo">
+    <img src="../../assets/images/fp-logo.png" alt="" class="img-fluid col-10 col-md-4">
+    <br><br>
+    <h1>PROJECT<br>
+      <font>HIGHLIGHTS</font></h1>
+      <div class="row">
+        <div class="col-12 col-md-6 container o-i center">
+          <h6 class="text-justify text-center">OPEN PLOTS<br><font>INDEPENDENT HOUSES</font></h6>
+        </div>
+        <div class="text-center col-12 col-md-6 container o-i">
+          <img src="../../assets/images/hmda.jpg" alt="" class="hmda img-fluid col-8">
+          <p>APPROVED LAYOUT<br><font>LP Number:<br>000015/LO/PLG/HMDA/2017</font></p>
+        </div>
+        </div>
+  </div>
+  <div class="col-md-7 col-12 container tile-cont">
+    <div class="row container">
+      <div class="col-md-2 col-4" *ngFor="let x of facility">
+        <img [src]="x.icon" alt="" class="img-fluid">
+        <p class="text-center">{{x.name}}</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>

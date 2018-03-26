@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { AllprojectsComponent } from './allprojects/allprojects.component';
 import { FpOverviewComponent } from './fp-overview/fp-overview.component';
+import { SubNavComponent } from './sub-nav/sub-nav.component';
+import { FpProjectHighlightsComponent } from './fp-project-highlights/fp-project-highlights.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { FpOverviewComponent } from './fp-overview/fp-overview.component';
     HomeComponent,
     AboutusComponent,
     AllprojectsComponent,
-    FpOverviewComponent
+    FpOverviewComponent,
+    SubNavComponent,
+    FpProjectHighlightsComponent
   ],
   imports: [
     BrowserModule
