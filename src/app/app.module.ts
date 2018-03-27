@@ -11,6 +11,7 @@ import { AllprojectsComponent } from './allprojects/allprojects.component';
 import { FpOverviewComponent } from './fp-overview/fp-overview.component';
 import { SubNavComponent } from './sub-nav/sub-nav.component';
 import { FpProjectHighlightsComponent } from './fp-project-highlights/fp-project-highlights.component';
+import { FpLocationMapComponent } from './fp-location-map/fp-location-map.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FpProjectHighlightsComponent } from './fp-project-highlights/fp-project
     AllprojectsComponent,
     FpOverviewComponent,
     SubNavComponent,
-    FpProjectHighlightsComponent
+    FpProjectHighlightsComponent,
+    FpLocationMapComponent
   ],
   imports: [
     BrowserModule
