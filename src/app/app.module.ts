@@ -12,6 +12,7 @@ import { FpOverviewComponent } from './fp-overview/fp-overview.component';
 import { SubNavComponent } from './sub-nav/sub-nav.component';
 import { FpProjectHighlightsComponent } from './fp-project-highlights/fp-project-highlights.component';
 import { FpLocationMapComponent } from './fp-location-map/fp-location-map.component';
+import { FpFloorPlansComponent } from './fp-floor-plans/fp-floor-plans.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { FpLocationMapComponent } from './fp-location-map/fp-location-map.compon
     FpOverviewComponent,
     SubNavComponent,
     FpProjectHighlightsComponent,
-    FpLocationMapComponent
+    FpLocationMapComponent,
+    FpFloorPlansComponent
   ],
   imports: [
     BrowserModule
