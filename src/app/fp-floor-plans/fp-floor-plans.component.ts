@@ -12,6 +12,12 @@ export class FpFloorPlansComponent implements OnInit {
   ngOnInit() {
   }
 
-  
+  area = [
+    {"name":"GROUND FLOOR","area":"1019 SQ FT"},
+    {"name":"PORTICO AREA","area":"212 SQ FT"},
+    {"name":"FIRST FLOOR","area":"1232 SQ FT"},
+    {"name":"TOTAL BUILT-UP AREA","area":"2463 SQ FT"},
+    {"name":"HEAD ROOM AREA","area":"163 SQ FT"}
+  ]
 
 }
