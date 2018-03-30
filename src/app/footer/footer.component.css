@@ -13,6 +13,13 @@ ul {text-align: right}
 		margin-left: 10px}
 .pvtld {padding: 0px;
 	   margin-top: 10px;}
+.s1 a i:hover{color:red;}
+.s2 a i:hover{color:#3b5998}
+.s5 a i:hover{color:#1dcaff}
+.s4 a i:hover{color:#0077B5}
+
+.s6 a i:hover{color:#006400}
+.s7 a i:hover{color:#3b5998 }
 
 @media only screen and (max-width: 600px) {
     

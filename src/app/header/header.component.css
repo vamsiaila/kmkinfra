@@ -43,7 +43,7 @@ nav {
 .nav-link {color:#221E1F;
             font-size: 10px;
             font-weight: 600}
-
+.plot {margin-left: 56px;}
 
 
 
@@ -75,13 +75,7 @@ nav {
 .sub_drop {
     display:none!important;
 }
-.plot {font-size: 10px;
-       width: 100%;
-       text-align: center;
-       margin-top: 11px;}
-
-
-
+.plot button {font-size: 20px;}
 
 
 
