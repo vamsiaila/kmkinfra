@@ -17,6 +17,7 @@ import { FpProjectHighlightsComponent } from './fp-project-highlights/fp-project
 import { FpLocationMapComponent } from './fp-location-map/fp-location-map.component';
 import { FpFloorPlansComponent } from './fp-floor-plans/fp-floor-plans.component';
 import {routing} from './my-module/my-module-routing.module';
+import { FpHomeComponent } from './fp-home/fp-home.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {routing} from './my-module/my-module-routing.module';
     SubNavComponent,
     FpProjectHighlightsComponent,
     FpLocationMapComponent,
-    FpFloorPlansComponent
+    FpFloorPlansComponent,
+    FpHomeComponent
   ],
   imports: [
     BrowserModule,
