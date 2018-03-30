@@ -8,3 +8,6 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+app-header{
+    z-index: 100;
+}

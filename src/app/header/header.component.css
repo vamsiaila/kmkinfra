@@ -1,3 +1,93 @@
-.header{
-    height: 50px;
+*{
+    box-sizing: border-box;
+    font-size:12px;
 }
+.sub_drop{
+    z-index: 100;
+}
+nav {
+    padding:0px!important;
+}
+.logo {
+    margin-left:10px;
+}
+.logo img{
+     padding: 0px;
+    }
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+    background-color:#1B3C6A;
+    color:#fff;
+}	
+.navbar-expand-sm .navbar-nav .nav-link:focus {
+    background-color:#1B3C6A;
+    color:#fff;
+}	
+.nav_adjust {
+    margin-left: 25%;
+}
+.nav_imp .nav-link {
+    margin: 5px;
+}
+.plot {
+    font-size:12px;
+    margin-top: 8px;
+} 
+.none .logo button{
+    display:none!important;
+}
+.logo {
+    margin: 0px;
+    padding: 0px!important;
+}
+
+@media only screen and (max-width: 575px) {
+.logo {
+    margin:0px;
+}
+.nav_imp li a{
+    padding:0px!important;
+} 
+#myNavbar ul{
+     padding: 3px;
+    }  
+#myNavbar ul li{
+     padding: 3px;
+    } 
+.logo img{
+    float: left;
+    margin-right: 41px;
+}
+.none .logo button{
+    display:block!important;
+    margin-top: 36px;
+}
+.sub_drop {
+    display:none!important;
+}
+}
+@media only screen and (min-width:576px) and (max-width:768px)
+{
+.logo {
+    margin:0px;
+}
+.nav_imp li a{
+    padding:0px!important;
+} 
+.sub_drop {
+    display:none!important;
+}
+.nav_adjust {
+    margin-left: 0px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    font-size:8px;
+}
+.plot button{
+    font-size: 8px;
+    padding:0px;
+} 
+}
+
+
+
+
