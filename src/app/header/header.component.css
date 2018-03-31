@@ -27,6 +27,7 @@ nav {
 }
 .nav_imp .nav-link {
     margin: 5px;
+    text-align: center;
 }
 .plot {
     font-size:10px;
