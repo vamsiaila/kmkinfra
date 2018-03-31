@@ -4,6 +4,20 @@ export let Fade =
     trigger('fade',[
     state('void',style({opacity:0})),
     transition(':enter,:leave',[
-    animate(2000)
+    animate(300)
     ])
   ])
+export let slidenx = 
+    trigger('slidenx',[
+        transition(':enter',[
+            style({transform:'translateX(-100px)'}),
+            animate(500)
+        ])
+    ])
+export let slidex = 
+    trigger('slidex',[
+        transition(':enter',[
+            style({transform:'translateX(100px)'}),
+            animate(500)
+        ])
+    ])
