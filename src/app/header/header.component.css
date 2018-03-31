@@ -33,6 +33,7 @@ nav {
 .plot {
     font-size:10px;
     margin-right: 25px;
+        margin-left: 48px;
 } 
 .none .logo button{
     display:none!important;
@@ -67,7 +68,7 @@ nav {
 }
 .none .logo button{
     display:block!important;
-    margin-top: 24px;
+    margin-top: 42px;
 }
 .logo button i{font-size: 30px}
 .sub_drop {

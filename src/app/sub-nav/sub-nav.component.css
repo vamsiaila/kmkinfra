@@ -1,4 +1,4 @@
-.nav_sub{margin-left: 35%;
+.nav_sub{margin-left: 34%;
          margin-top: -25px;}
  .navbar-expand-sm .navbar-nav .nav-link:hover {
      background-color:#1B3C6A;
@@ -10,7 +10,8 @@
 }	
 .nav-link {color:#221E1F;
     font-size: 10.4px;
-    font-weight: 600}
+    font-weight: 600;padding: 0px;}
+
  @media only screen and (max-width: 575px) 
  {
      .nav_sub{display: none;}
