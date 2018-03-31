@@ -1,9 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { slidenx, slidex } from '../animation';
 
 @Component({
   selector: 'app-aboutus',
   templateUrl: './aboutus.component.html',
-  styleUrls: ['./aboutus.component.css']
+  styleUrls: ['./aboutus.component.css'],
+  animations:[
+    slidenx,
+    slidex
+  ]
 })
 export class AboutusComponent implements OnInit {
 
