@@ -23,14 +23,16 @@ nav {
     color:#fff;
 }	
 .nav_adjust {
-    margin-left: 25%;
+    margin-left: 26%;
 }
 .nav_imp .nav-link {
     margin: 5px;
 }
+.nav-link{padding: 0px;}
 .plot {
-    font-size:12px;
-    margin-top: 8px;
+    font-size:10px;
+    margin-right: 25px;
+        margin-left: 48px;
 } 
 .none .logo button{
     display:none!important;
@@ -39,6 +41,11 @@ nav {
     margin: 0px;
     padding: 0px!important;
 }
+.btn-info {background-color: #1B3C6A;color:#fff}
+.nav-link {color:#221E1F;
+            font-size: 10.4px;
+            font-weight: 600}
+
 
 @media only screen and (max-width: 575px) {
 .logo {
@@ -53,17 +60,24 @@ nav {
 #myNavbar ul li{
      padding: 3px;
     } 
+#myNavbar ul li a{font-size: 20px}
 .logo img{
     float: left;
     margin-right: 41px;
 }
+
 .none .logo button{
     display:block!important;
-    margin-top: 36px;
+    margin-top: 42px;
 }
+.logo button i{font-size: 30px}
 .sub_drop {
     display:none!important;
 }
+.plot button {font-size: 20px;}
+.plot {margin-left: 0px;}
+
+
 }
 @media only screen and (min-width:576px) and (max-width:768px)
 {
@@ -86,6 +100,7 @@ nav {
     font-size: 8px;
     padding:0px;
 } 
+.plot {margin-left: 0px;}
 }
 
 
