@@ -27,7 +27,6 @@ nav {
 }
 .nav_imp .nav-link {
     margin: 5px;
-    text-align: center;
 }
 .nav-link{padding: 0px;}
 .plot {
@@ -66,6 +65,7 @@ nav {
     float: left;
     margin-right: 41px;
 }
+
 .none .logo button{
     display:block!important;
     margin-top: 42px;
