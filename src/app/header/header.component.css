@@ -23,14 +23,17 @@ nav {
     color:#fff;
 }	
 .nav_adjust {
-    margin-left: 23%;
+    margin-left: 26%;
 }
 .nav_imp .nav-link {
     margin: 5px;
+    text-align: center;
 }
+.nav-link{padding: 0px;}
 .plot {
     font-size:10px;
     margin-right: 25px;
+        margin-left: 48px;
 } 
 .none .logo button{
     display:none!important;
@@ -43,10 +46,6 @@ nav {
 .nav-link {color:#221E1F;
             font-size: 10.4px;
             font-weight: 600}
-.plot {margin-left: 56px;}
-
-
-
 
 
 @media only screen and (max-width: 575px) {
@@ -69,14 +68,14 @@ nav {
 }
 .none .logo button{
     display:block!important;
-    margin-top: 24px;
+    margin-top: 42px;
 }
 .logo button i{font-size: 30px}
 .sub_drop {
     display:none!important;
 }
 .plot button {font-size: 20px;}
-
+.plot {margin-left: 0px;}
 
 
 }
@@ -101,7 +100,7 @@ nav {
     font-size: 8px;
     padding:0px;
 } 
-
+.plot {margin-left: 0px;}
 }
 
 

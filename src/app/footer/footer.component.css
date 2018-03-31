@@ -8,7 +8,8 @@ ul li a i{color:#6E6E70;
 ul {text-align: right}
 
 .list-inline {margin-top:18px;
-			 margin-right: 7%;}
+			 margin-right: 7%;
+			}
 .pvtld1 {padding: 0px; 
 		margin-left: 10px}
 .pvtld {padding: 0px;
@@ -28,11 +29,6 @@ ul {text-align: right}
 	
     ul li a i{color:#6E6E70;
 	     	font-size:30px;
-			margin: 4px;
-			
-		}
-	ul {text-align: center;}
-
-	
+			margin: 4px;}
+	.list-inline{text-align: center}
 }
-
