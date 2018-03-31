@@ -23,7 +23,7 @@ nav {
     color:#fff;
 }	
 .nav_adjust {
-    margin-left: 23%;
+    margin-left: 26%;
 }
 .nav_imp .nav-link {
     margin: 5px;
@@ -76,7 +76,7 @@ nav {
     display:none!important;
 }
 .plot button {font-size: 20px;}
-
+.plot {margin-left: 0px;}
 
 
 }
@@ -101,7 +101,7 @@ nav {
     font-size: 8px;
     padding:0px;
 } 
-
+.plot {margin-left: 0px;}
 }
 
 
