@@ -15,7 +15,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'Home', component: HomeComponent },
   { path: 'About', component: AboutusComponent },
-  { path: 'FeaturedProject', component: FpHomeComponent, children:[
+  { path: 'FeaturedProject', component: FpHomeComponent, 
+  children:[
     {path:'', component:FpOverviewComponent},
     {path:'overview', component:FpOverviewComponent},
     {path:'location', component:FpLocationMapComponent},
