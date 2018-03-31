@@ -20,7 +20,8 @@ ul {text-align: right}
 
 .s6 a i:hover{color:#006400}
 .s7 a i:hover{color:#3b5998 }
-
+.pvtld1 img{padding: 6px}
+.pvtld img {padding: -1px;}
 @media only screen and (max-width: 600px) {
     
 	.pvtld {margin-bottom:20px;

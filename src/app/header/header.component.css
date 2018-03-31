@@ -23,14 +23,14 @@ nav {
     color:#fff;
 }	
 .nav_adjust {
-    margin-left: 23%;
+    margin-left: 29%;
 }
 .nav_imp .nav-link {
     margin: 5px;
 }
 .plot {
     font-size:10px;
-    margin-right: 25px;
+  margin-left: 50px
 } 
 .none .logo button{
     display:none!important;
@@ -43,11 +43,6 @@ nav {
 .nav-link {color:#221E1F;
             font-size: 10px;
             font-weight: 600}
-.plot {margin-left: 56px;}
-
-
-
-
 
 @media only screen and (max-width: 575px) {
 .logo {
@@ -76,8 +71,11 @@ nav {
     display:none!important;
 }
 .plot button {font-size: 20px;}
-
-
+.nav_adjust {
+    margin-left: 19%;
+}
+.nav-link{text-align: center}
+.plot { margin-left: 0px} 
 
 }
 @media only screen and (min-width:576px) and (max-width:768px)
