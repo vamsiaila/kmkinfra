@@ -1,9 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { slidenx, slidex, slidey } from '../animation';
 
 @Component({
   selector: 'app-allprojects',
   templateUrl: './allprojects.component.html',
-  styleUrls: ['./allprojects.component.css']
+  styleUrls: ['./allprojects.component.css'],
+  animations: [
+    slidenx,
+    slidex,
+    slidey
+  ]
 })
 export class AllprojectsComponent implements OnInit {
 
