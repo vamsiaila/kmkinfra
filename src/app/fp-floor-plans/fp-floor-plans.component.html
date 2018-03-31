@@ -1,3 +1,32 @@
-<p>
-  fp-floor-plans works
-</p>
+<div class="container out">
+  <div class="row">
+  <div class="col-md-2 col-12 text-left">
+    <img src="../../assets/images/fp-logo.png" alt="" class="img-fluid col-10">
+    <h1>FLOOR<br><font>PLANS</font></h1>
+  </div>
+  <div class="col-md-10 col-12 container tile-cont">
+    <div class="row text-center container">
+      <div class="col-lg-3 col-md-6 col-12">
+          <h6 class="text-left">EAST FACING 200<small> SQ YDS</small><br>
+            2463<small> SFT</small><font> DUPLEX VILLA</font></h6>
+          <img src="../../assets/images/fp-fl1.png" alt="" class="img-fluid">
+          <table class="table">
+            <tbody>
+              <tr *ngFor = "let x of area">
+                <td scope="row">{{x.name}}</td>
+                <td>{{x.area}}</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+          <img src="../../assets/images/fp-fl2.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+            <img src="../../assets/images/fp-fl3.png" alt="" class="img-fluid">
+            <img src="../../assets/images/fp-fl4.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>

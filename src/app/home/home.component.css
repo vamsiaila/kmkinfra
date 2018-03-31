@@ -6,7 +6,7 @@
     padding-right: 70px;
 }
 h1{
-font-family: Arial;
+font-family: 'futura', sans-serif;
 font-weight: 900;
 color: #1c3b6a;
 line-height: 5rem;
@@ -22,6 +22,7 @@ color: #caa12e;
 }
 .tile-item{
     width: 100%;
+    z-index: -100;
 }
 @media only screen and (max-width: 600px) {
     .out{
