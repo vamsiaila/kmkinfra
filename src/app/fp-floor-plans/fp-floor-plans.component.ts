@@ -1,9 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { slidenx, slidex, slidey } from '../animation';
 
 @Component({
   selector: 'app-fp-floor-plans',
   templateUrl: './fp-floor-plans.component.html',
-  styleUrls: ['./fp-floor-plans.component.css']
+  styleUrls: ['./fp-floor-plans.component.css'],
+  animations: [
+    slidenx,
+    slidex,
+    slidey
+  ]
 })
 export class FpFloorPlansComponent implements OnInit {
 

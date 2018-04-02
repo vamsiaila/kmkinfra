@@ -1,6 +1,6 @@
 <div class="container out">
   <div class="row">
-  <div class="col-md-5 col-12 logo">
+  <div class="col-md-5 col-12 logo" @slidenx>
     <img src="../../assets/images/fp-logo.png" alt="" class="img-fluid col-10 col-md-4">
     <br><br>
     <h1>PROJECT<br>
@@ -15,7 +15,7 @@
         </div>
         </div>
   </div>
-  <div class="col-md-7 col-12 container tile-cont">
+  <div class="col-md-7 col-12 container tile-cont" @slidex>
     <div class="row container">
       <div class="col-md-2 col-4" *ngFor="let x of facility">
         <img [src]="x.icon" alt="" class="img-fluid">

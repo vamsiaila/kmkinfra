@@ -1,9 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { slidenx, slidex } from '../animation';
 
 @Component({
   selector: 'app-fp-project-highlights',
   templateUrl: './fp-project-highlights.component.html',
-  styleUrls: ['./fp-project-highlights.component.css']
+  styleUrls: ['./fp-project-highlights.component.css'],
+  animations: [
+    slidenx,
+    slidex
+  ]
 })
 export class FpProjectHighlightsComponent implements OnInit {
 
