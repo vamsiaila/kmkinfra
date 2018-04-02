@@ -30,5 +30,6 @@
     .optn_hide{display: block;}
      .optn_hide{border:1px solid #ccc;
                 font-size: 20px;}
-     .optn_hide  option{font-size:10px;}
+     .optn_hide  option{font-size:10px;
+    overflow: hidden}
 }
