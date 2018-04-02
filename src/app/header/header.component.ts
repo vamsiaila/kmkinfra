@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Fade } from '../animation';
+import { slideny } from '../animation';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
   animations: [
-    Fade
+    slideny
   ]
 })
 export class HeaderComponent implements OnInit {

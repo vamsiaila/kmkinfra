@@ -28,3 +28,10 @@ export let slidey =
             animate(500)
         ])
     ])
+export let slideny = 
+    trigger('slidey',[
+        transition(':enter',[
+            style({transform:'translateY(-100px)'}),
+            animate(500)
+        ])
+    ])
