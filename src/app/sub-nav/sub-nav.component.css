@@ -8,17 +8,25 @@
     background-color:#1B3C6A;
     color:#fff;
 }	
+
 .nav-link {color:#221E1F;
     font-size: 10.4px;
     font-weight: 600;padding: 0px;}
+.optn_hide{display: none;}
 
  @media only screen and (max-width: 575px) 
  {
      .nav_sub{display: none;}
+     .optn_hide{display: block;}
+     .optn_hide{border:1px solid red;}
+     .optn_hide  option{font-size:10px;
+                        max-width: 50%;
+                        overflow: hidden;}
  }
 
 
  @media only screen and (min-width:576px) and (max-width:768px)
  {
     .nav_sub{display: none;}
+    
 }
