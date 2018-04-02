@@ -18,7 +18,7 @@
  {
      .nav_sub{display: none;}
      .optn_hide{display: block;}
-     .optn_hide{border:1px solid red;}
+     .optn_hide{border:1px solid #ccc;}
      .optn_hide  option{font-size:10px;
                         max-width: 50%;
                         overflow: hidden;}
