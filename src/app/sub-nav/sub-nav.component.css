@@ -18,15 +18,17 @@
  {
      .nav_sub{display: none;}
      .optn_hide{display: block;}
-     .optn_hide{border:1px solid #ccc;}
-     .optn_hide  option{font-size:10px;
-                        max-width: 50%;
-                        overflow: hidden;}
+     .optn_hide{border:1px solid #ccc;
+                font-size: 20px;}
+     .optn_hide  option{font-size:10px;}
  }
 
 
  @media only screen and (min-width:576px) and (max-width:768px)
  {
     .nav_sub{display: none;}
-    
+    .optn_hide{display: block;}
+     .optn_hide{border:1px solid #ccc;
+                font-size: 20px;}
+     .optn_hide  option{font-size:10px;}
 }
